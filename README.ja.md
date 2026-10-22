@@ -19,7 +19,7 @@
 
 ## 導入手順
 
-1. [Releases](https://github.com/spa77k/ResourceRace/releases)から`resourcerace-1.0.0.jar`をダウンロードします。
+1. [Releases](https://github.com/spa77k/mc-resource-race/releases)から`resourcerace-1.0.0.jar`をダウンロードします。
 2. Vaultと同じ`plugins/`フォルダーに置きます。
 3. サーバーを再起動します。`plugins/ResourceRace/config.yml`ができます。
 4. 資源ワールドを`worlds`に書き、サーバーを再起動します。

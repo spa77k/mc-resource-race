@@ -19,7 +19,7 @@
 
 ## 安装
 
-1. 从 [Releases](https://github.com/spa77k/ResourceRace/releases) 下载 `resourcerace-1.0.0.jar`。
+1. 从 [Releases](https://github.com/spa77k/mc-resource-race/releases) 下载 `resourcerace-1.0.0.jar`。
 2. 将其放入与 Vault 相同的 `plugins/` 文件夹。
 3. 重启服务器，会生成 `plugins/ResourceRace/config.yml`。
 4. 在 `worlds` 中填写资源世界，然后重启服务器。

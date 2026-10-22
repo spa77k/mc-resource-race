@@ -19,7 +19,7 @@ A Paper plugin that turns a freshly reset resource world into a race. Right afte
 
 ## Installation
 
-1. Download `resourcerace-1.0.0.jar` from [Releases](https://github.com/spa77k/ResourceRace/releases).
+1. Download `resourcerace-1.0.0.jar` from [Releases](https://github.com/spa77k/mc-resource-race/releases).
 2. Put it in your server's `plugins/` folder next to Vault.
 3. Restart the server. `plugins/ResourceRace/config.yml` is created.
 4. List your resource worlds under `worlds`, then restart the server.

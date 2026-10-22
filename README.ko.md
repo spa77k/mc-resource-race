@@ -19,7 +19,7 @@
 
 ## 설치
 
-1. [Releases](https://github.com/spa77k/ResourceRace/releases)에서 `resourcerace-1.0.0.jar`를 내려받습니다.
+1. [Releases](https://github.com/spa77k/mc-resource-race/releases)에서 `resourcerace-1.0.0.jar`를 내려받습니다.
 2. Vault와 같은 `plugins/` 폴더에 넣습니다.
 3. 서버를 재시작합니다. `plugins/ResourceRace/config.yml`이 생성됩니다.
 4. 자원 월드를 `worlds`에 적고, 서버를 재시작합니다.

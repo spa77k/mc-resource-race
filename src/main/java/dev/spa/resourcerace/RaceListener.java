@@ -199,7 +199,8 @@ final class RaceListener implements Listener {
 
     @EventHandler
     public void onSmelt(FurnaceSmeltEvent event) {
-        if (!inRace(event.getBlock().getWorld().getName())) {
+        // 材料の印をそのまま引き継ぐだけなので、焼く場所は対象ワールドに限らない。
+        if (!race.active()) {
             return;
         }
         Mark mark = marks.read(event.getSource());
@@ -276,9 +277,9 @@ final class RaceListener implements Listener {
         frame.setItem(stack);
     }
 
-    /** 材料のうち空でないものがすべて同じ持ち主の印付きなら、結果にも同じ印を付ける。 */
+    /** 材料のうち空でないものがすべて同じ持ち主の印付きなら、結果にも同じ印を付ける。作る場所は問わない。 */
     private void markCraft(CraftingInventory inventory, Player player) {
-        if (player == null || !inRace(player.getWorld().getName())) {
+        if (player == null || !race.active()) {
             return;
         }
         ItemStack result = inventory.getResult();

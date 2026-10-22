@@ -150,9 +150,6 @@ final class RaceManager {
         if (mode != GameMode.SURVIVAL && mode != GameMode.ADVENTURE) {
             return;
         }
-        if (!player.getWorld().getName().equals(state.world())) {
-            return;
-        }
         if (state.hasStanding(uuid)) {
             return;
         }

@@ -78,6 +78,8 @@ Counted:
 - Furnace output when the input carries a mark.
 - Crafting output when every non-empty ingredient carries the same owner's mark.
 
+Furnaces and crafting only carry over the ingredients' mark, so they mark the output even outside the race world. Rankings are checked in any world.
+
 Not counted:
 
 - Anything obtained outside the target world.

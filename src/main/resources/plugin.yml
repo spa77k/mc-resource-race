@@ -1,0 +1,17 @@
+name: ResourceRace
+version: '${project.version}'
+main: dev.spa.resourcerace.ResourceRacePlugin
+api-version: "1.21"
+author: spa
+description: 資源ワールドで指定アイテムを集めた順に順位を決め、スパコインを渡す探索レース
+depend: [Vault]
+
+commands:
+  race:
+    description: 探索レースの状況表示と、開始・終了・再読み込み
+    usage: /race [start <world>|stop|reload]
+
+permissions:
+  resourcerace.admin:
+    description: 探索レースの開始・終了・設定の再読み込み
+    default: op

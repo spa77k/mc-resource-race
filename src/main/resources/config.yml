@@ -1,0 +1,29 @@
+# 毎週のリセット後に race start <world> で開始する。お題はワールドごとの候補から1つ抽選する。
+worlds:
+  resource2:
+    display-name: 資源サーバー2
+    targets:
+      - item: DIAMOND
+        amount: 5
+      - item: TRIDENT
+        amount: 1
+      - item: EMERALD
+        amount: 10
+  resource_nether2:
+    display-name: 資源ネザー2
+    targets:
+      - item: NETHERITE_SCRAP
+        amount: 4
+      - item: WITHER_SKELETON_SKULL
+        amount: 1
+  resource_the_end:
+    display-name: 資源エンド
+    targets:
+      - item: ELYTRA
+        amount: 1
+      - item: SHULKER_SHELL
+        amount: 4
+# 順位ごとの報酬（スパコイン）。要素数が順位の数になる。
+rewards: [1000, 500, 300]
+# 開始から終了までの時間（時間単位）。次の週のリセットと重ならないよう7日より少し短くする。
+duration-hours: 167

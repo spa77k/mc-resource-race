@@ -1,6 +1,6 @@
 # ResourceRace
 
-[日本語](README.ja.md)
+English | [日本語](README.ja.md) | [简体中文](README.zh-CN.md) | [한국어](README.ko.md)
 
 A Paper plugin that turns a freshly reset resource world into a race. Right after the weekly reset you start a race from the console, and the first players to collect the target item get spa coins.
 
@@ -91,3 +91,7 @@ Not counted:
 - Items in your ender chest.
 
 Marks from older races are removed when you log in, when you open an inventory, and when the race ends, so ordinary items can stack again afterwards.
+
+## License
+
+[MIT](LICENSE)
